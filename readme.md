@@ -28,13 +28,14 @@ Use a _noscript_ element, like the one in the example, in every position where y
 
 
 When the browser reaches the end of the html document and executes the script, it will make the browser request:
-__image-small.jpg__ when the viewport width <= 640 and pixel density < 1.5
-__image-medium.jpg__ when the viewport width <= 1024 and pixel density < 1.5
-__image.jpg__ when the viewport width > 1024 and pixel density < 1.5
 
-__image-small-2x.jpg__ when the viewport width <= 640 and pixel density > 1.5
-__image-medium-2x.jpg__ when the viewport width <= 1024 and pixel density > 1.5
-__image-2x.jpg__ when the viewport > 1024 and pixel density < 1.5
+* __image-small.jpg__ when the viewport width <= 640 and pixel density < 1.5
+* __image-medium.jpg__ when the viewport width <= 1024 and pixel density < 1.5
+* __image.jpg__ when the viewport width > 1024 and pixel density < 1.5
+
+* __image-small-2x.jpg__ when the viewport width <= 640 and pixel density > 1.5
+* __image-medium-2x.jpg__ when the viewport width <= 1024 and pixel density > 1.5
+* __image-2x.jpg__ when the viewport > 1024 and pixel density < 1.5
 
 
 
