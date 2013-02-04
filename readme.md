@@ -32,7 +32,6 @@ When the browser reaches the end of the html document and executes the script, i
 * __image-small.jpg__ when the viewport width <= 640 and pixel density < 1.5
 * __image-medium.jpg__ when the viewport width <= 1024 and pixel density < 1.5
 * __image.jpg__ when the viewport width > 1024 and pixel density < 1.5
-
 * __image-small-2x.jpg__ when the viewport width <= 640 and pixel density > 1.5
 * __image-medium-2x.jpg__ when the viewport width <= 1024 and pixel density > 1.5
 * __image-2x.jpg__ when the viewport > 1024 and pixel density < 1.5
