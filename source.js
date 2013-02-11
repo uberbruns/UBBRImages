@@ -37,6 +37,13 @@
 	}
 
 
+	var getAttr = function(e, attr) {
+
+		return e.getAttribute(attr);
+		
+	}
+
+
 	var adaptImages = function() {
 
 		var highPixelRatio = false;
@@ -52,7 +59,6 @@
 
 		for (var i = noscriptElements.length - 1; i >= 0; i--) {
 
-			var getAttr = function(e, attr) { return e.getAttribute(attr); }
 
 			var noscriptElement = noscriptElements[i];
 			var imgSrc = getAttr(noscriptElement, "data-img-src");
